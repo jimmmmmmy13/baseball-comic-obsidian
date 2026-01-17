@@ -133,6 +133,7 @@ data/students/你的學號/
 
 ## 給同學的提醒（常見錯誤）
 
+- 遇到問題先看：debug/README.md
 - 學號不是 10 碼英數字 → 網頁掃不到
 - 資料夾放錯層級（不在 data/students/）→ 網頁掃不到
 - 沒有產生 index.json → PR 合併後也無法被網站讀取
@@ -148,3 +149,4 @@ Repo 內提供標準版匯出工具（請複製到你的學號資料夾使用）
 - export.py
 - run_export.bat（Windows）
 - run_export.command（macOS）
+
