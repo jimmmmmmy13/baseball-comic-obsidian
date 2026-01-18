@@ -1,5 +1,5 @@
 {
-  "meta": { "owner": "A000000000", "exported_at": "test", "license_ok": true },
+  "meta": { "owner": "A12345678", "exported_at": "test", "license_ok": true },
   "players": [
     { "type": "player", "id": "p001", "name_zh": "測試球員", "tags": ["熱血"], "story_hooks": ["關鍵時刻不放棄"] }
   ],
