@@ -9,7 +9,7 @@
 
 1. 用 GitHub Desktop **Clone** 本 Repo 到你的電腦
 2. 建立你的個人分支（branch）：`data-你的學號`
-3. 在 `data/students/<10碼學號>/` 建立你的資料夾與 vault
+3. 在 `data/students/<9碼學號>/` 建立你的資料夾與 vault
 4. 把你原本的 Obsidian vault **搬到指定位置**
 5. 一鍵產生 `index.json`
 6. Commit + Push
@@ -64,7 +64,7 @@
 3. Branch 名稱請用：
    `data-你的學號`
 
-例：`data-A123456789`
+例：`data-A12345678`
 
 ---
 
@@ -81,7 +81,7 @@ data/students/你的學號/
 
 
 重要規範（必讀）：
-- `你的學號` 必須是 **10 碼英數字**
+- `你的學號` 必須是 **9 碼英數字**
 - 你的資料必須放在 `data/students/` 底下
 - 每人只改自己的資料夾，避免衝突
 
@@ -134,7 +134,7 @@ data/students/你的學號/
 ## 給同學的提醒（常見錯誤）
 
 - 遇到問題先看：debug/README.md
-- 學號不是 10 碼英數字 → 網頁掃不到
+- 學號不是 9 碼英數字 → 網頁掃不到
 - 資料夾放錯層級（不在 data/students/）→ 網頁掃不到
 - 沒有產生 index.json → PR 合併後也無法被網站讀取
 - 不要改別人的資料夾或系統檔案（只改自己的學號資料夾）

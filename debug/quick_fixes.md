@@ -113,7 +113,7 @@ Q10：PR 合併了但網站沒有我
 1. PR 是否已合併到 main
 2. 是否有 index.json
 3. 路徑是否正確：
-data/students/10碼學號/index.json
+data/students/9碼學號/index.json
 
 --------------------------------------------------
 
