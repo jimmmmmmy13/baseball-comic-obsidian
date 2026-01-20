@@ -12,6 +12,10 @@ def die(msg):
     sys.exit(1)
 
 def load_md_files(folder):
+    if not folder.exists():
+        return []
+    items = []
+    for p in folder.glob("*.md"):
         items.append({
             "id": p.stem,
             "title": p.stem,
